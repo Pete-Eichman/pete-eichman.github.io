@@ -7,8 +7,6 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script type ="text/javascript" src="clicker.js"></script>
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -35,7 +33,14 @@
           <h3>
       </div>
     </div>
-    <button type="button" value="Submit" onClick="onClick()">Click me</button>
+    <script type="text/javascript">
+      var clicks = 0;
+      function onClick() {
+        clicks += 1;
+        document.getElementById("clicks").innerHTML = clicks;
+      };
+    </script>
+    <button type="button" onClick="onClick()">Click me</button>
     <p id="clicks"></p>
   </body>
 </html>
