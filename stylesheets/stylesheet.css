@@ -165,12 +165,14 @@ a.button span {
 }
 #view-on-github {
   margin-right: 0;
+	text-align: center;
 }
 #view-on-linkedin span {
 	background: transparent url(../images/linkedinlogo.png) 12px 50% no-repeat;
 }
 #view-on-linkedin {
   margin-right: 0;
+	text-align: center;
 }
 #clicks {
 	color: #2790B0;
