@@ -102,6 +102,7 @@ header h2 {
 
 #downloads {
   margin-bottom: 40px;
+	padding-left: 10%;
 }
 
 a.button {
@@ -164,9 +165,7 @@ a.button span {
   background: transparent url(../images/octocat-icon.png) 12px 50% no-repeat;
 }
 #view-on-github {
-	padding-left: 5%;
   margin-right: 0;
-	width: 5%;
 }
 #view-on-linkedin span {
 	background: transparent url(../images/linkedinlogo.png) 12px 50% no-repeat;
