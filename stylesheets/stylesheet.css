@@ -170,7 +170,9 @@ a.button span {
 #view-on-linkedin {
   margin-right: 0;
 }
-
+#clicks {
+	color:#2790B0;
+}
 code, pre {
   margin-bottom: 30px;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal;
