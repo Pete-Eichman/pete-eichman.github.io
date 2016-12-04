@@ -1,0 +1,22 @@
+@import "materialize";
+
+#view-on-github span {
+  background: transparent url(../images/octocat-icon.png) 12px 50% no-repeat;
+}
+#view-on-github {
+	margin-right: 5%;
+}
+#view-on-linkedin span {
+	background: transparent url(../images/linkedinlogo.png) 12px 50% no-repeat;
+}
+#view-on-linkedin {
+	margin-right: 5%;
+}
+
+.nav-wrapper {
+  background-color: #00c853;
+}
+
+body {
+  background-color: #00c853;
+}
