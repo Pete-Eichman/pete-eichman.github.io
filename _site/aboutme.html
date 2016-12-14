@@ -3,49 +3,45 @@
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=yes"/>
     <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="stylesheets/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <link rel='shortcut icon' href='pete-eichman.github.io/images/favicon.ico' type='image/x-icon'/ >
-    <title>About Me</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pete-Eichman's Github Page</title>
   </head>
-
-  <body background="images/background.jpg">
-    <div class="navbar-fixed">
+  <body>
+    <div class="navbar">
       <nav>
-        <div class="nav-wrapper blue lighten-2">
-          <ul class="left hide-on-med-and-down">
+        <div class="nav-wrapper">
+          <ul class="left">
             <li><a class="waves-effect waves-light" href="https://pete-eichman.github.io">Home</a></li>
             <li><a class="waves-effect waves-light" href="https://pete-eichman.github.io/aboutme.html">About Me</a></li>
           </ul>
         </div>
       </nav>
     </div>
-    <div class="col s12 m8 offset-m2 l6 offset-l3">
-        <div class="card-panel z-depth-5">
-          <div class="row valign-wrapper">
-            <div class="col s2">
-              <img src="images/pep.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+    <div class="col s12" id="card">
+      <div class="card-panel z-depth-5">
+        <div class="row valign-wrapper">
+          <div class="col s3">
+            <img src="images/pep.jpg" alt="" class="circle responsive-img">
+          </div>
+          <div class="col s9">
+            <div id= "welcome">
+              About Me<hr>
             </div>
-            <div class="col s10">
-              <h2>About Me</h2><hr>
-              <h5>I am a recent graduate of Launch Academy's Fall 2016 Cohort.</h5></br>
-              <h5>Launch Academy is a full-stack web development boot-camp in Boston MA.</br>At Launch, we learned the following:</h5>
-                <li>Ruby on Rails</li>
-                <li>HTML5/CSS3</li>
-                <li>Javascript(ES5/ES6)</li>
-                <li>React.js</li>
-                <li>PostgreSQL</li>
-                <li>API Integration</li>
-                <li>Git/Github</li>
-                <li>Rspec Testing</li>
-                <li>Capybara Testing</li>
+            <div id="greet">
+              I am a recent graduate of Launch Academy's Fall 2016 Cohort.
+              </br>Launch Academy is a full-stack web development boot-camp in Boston MA.
             </div>
           </div>
         </div>
       </div>
+    </div>
+
 
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
