@@ -3,49 +3,47 @@
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="stylesheets/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <link rel='shortcut icon' href='pete-eichman.github.io/images/favicon.ico' type='image/x-icon'/ >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pete-Eichman's Github Page</title>
   </head>
-
-  <body background="images/background.jpg">
-    <div class="navbar-fixed">
+  <body>
+    <div class="navbar">
       <nav>
-        <div class="nav-wrapper black">
-          <ul class="left hide-on-med-and-down">
+        <div class="nav-wrapper">
+          <ul class="left">
             <li><a class="waves-effect waves-light" href="https://pete-eichman.github.io">Home</a></li>
             <li><a class="waves-effect waves-light" href="https://pete-eichman.github.io/aboutme.html">About Me</a></li>
           </ul>
         </div>
       </nav>
     </div>
-    <div class="row center-align">
-      <div class="col s10 offset-s1">
-          <div class="card-panel z-depth-5">
-            <div class="row valign-wrapper">
-              <div class="col s2">
-                <img src="images/pep.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
-              </div>
-              <div class="col s8">
-                <h2>Welcome to my Github Page!</h2><hr>
-                <h4>My name is Pete Eichman.</h4>
-                <h5>Feel free to browse my projects on Github!</h5>
-                <ul>
-                  <li class="">
-                    <a class="left waves-effect waves-light" href="https://github.com/Pete-Eichman"><img src="images/octocat-icon.png">Find me on Github</a>
-                    <a class="center waves-effect waves-light" href="https://linkedin.com/in/petereichman"><img src="images/linkedinlogo.png">Connect with me on LinkedIn</a>
-                    <a class="right waves-effect waves-light" href="https://www.facebook.com/pete.eichman"><img src="images/facebook.png">Add me on Facebook</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
+    <div class="col s12" id="card">
+      <div class="card-panel z-depth-5">
+        <div class="row valign-wrapper">
+          <div class="col s3">
+            <img src="images/pep.jpg" alt="" class="circle responsive-img">
+          </div>
+          <div class="col s9">
+            <div id="welcome">Welcome to my Github Page!</div><hr>
+            <div id="greet">My name is Pete Eichman.</br>Feel free to browse my projects on Github!</div>
+            <ul>
+              <li class ="left">
+                <a class="waves-effect waves-light" href="https://github.com/Pete-Eichman"><img src="images/octocat-icon.png" style="vertical-align:middle"> Find me on Github</a>
+                <a class="waves-effect waves-light" href="https://linkedin.com/in/petereichman"><img src="images/linkedinlogo.png" style="vertical-align:middle"> Connect with me on LinkedIn</a>
+                <a class="waves-effect waves-light" href="https://www.facebook.com/pete.eichman"><img src="images/facebook.png" style="vertical-align:middle"> Add me on Facebook</a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
+    </div>
+
 
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
