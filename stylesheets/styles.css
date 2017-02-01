@@ -1,18 +1,7 @@
 body {
-  background-color: white;
-  /*background-image: url("../images/background.jpg");*/
+  background-color: #595151;
 }
 h1 {
-  font-size: 3rem;
-}
-h2{
-  font-size: 1.2rem;
-}
-h3 {
-  font-size: 1rem;
-}
-
-#welcome {
   font-size: 1.4rem;
 }
 
@@ -22,8 +11,14 @@ h3 {
 
 #card {
   position: absolute;
-  width: 100%;
-  top: 60px;
+  width: 80%;
+  left: 10%;
+  top: 100px;
+}
+
+.card-panel {
+  border: solid;
+  border-radius: 5px;
 }
 
 .nav-wrapper {
@@ -40,4 +35,46 @@ nav {
 a {
   padding-right: 5px;
   font-size: 1rem;
+  padding-bottom: 10px;
+}
+
+
+@media screen and (max-width: 414px) {
+  /* comes into effect for screens less than or equal to 320 pixels */
+
+  body {
+    background-color: #595151;
+  }
+
+  #welcome {
+    font-size: 1.4rem;
+  }
+
+  #greet {
+    font-size: 1rem;
+  }
+
+  #card {
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    top: 100px;
+  }
+
+  .nav-wrapper {
+    background-color: black;
+  }
+
+  nav {
+    position: absolute;
+    height: 60px;
+    top: 0px;
+    width: 100%;
+  }
+
+  a {
+    padding-right: 5px;
+    font-size: 1rem;
+    padding-bottom: 10px;
+  }
 }
