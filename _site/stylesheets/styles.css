@@ -12,11 +12,18 @@ h2 {
   font-size: 1rem;
 }
 
-#card {
+#welcome-card {
   position: absolute;
-  width: 80%;
-  left: 10%;
-  top: 100px;
+  width: 70%;
+  left: 15%;
+  top: 10%;
+}
+
+#connection-card {
+  position: absolute;
+  width: 50%;
+  left: 25%;
+  top: 100%;
 }
 
 .card-panel {
@@ -46,8 +53,42 @@ a {
 }
 
 #welcome {
-  font-size: 2.5rem;
-  padding-left: 10px;
+  font-size: 2rem;
+  position: relative;
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  background-color: #fff;
+  border: 8px solid #666;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  -webkit-box-shadow: 2px 2px 4px #888;
+  -moz-box-shadow: 2px 2px 4px #888;
+  box-shadow: 2px 2px 4px #888;
+}
+
+#welcome:before {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 28px;
+  top: 85px;
+  border: 25px solid;
+  border-color: #666 transparent transparent #666;
+}
+
+#welcome:after {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 38px;
+  top: 80px;
+  border: 15px solid;
+  border-color: #fff transparent transparent #fff;
 }
 
 @media screen and (max-width: 414px) {
@@ -65,11 +106,18 @@ a {
     font-size: 1rem;
   }
 
-  #card {
+  #welcome-card {
     position: absolute;
     width: 70%;
-    left: 5%;
-    top: 70px;
+    left: 12.5%;
+    top: 15%;
+  }
+
+  #connection-card {
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    top: 115%;
   }
 
   .nav-wrapper {
@@ -88,13 +136,16 @@ a {
     font-size: .7rem;
     padding-bottom: 5px;
   }
+
  .card-panel {
    border-radius: 5px;
    border: solid;
  }
+
  #welcome {
    font-size: 1.3rem;
  }
+
  #intro {
    font-size: 1rem;
  }
