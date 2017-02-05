@@ -16,13 +16,15 @@ h2 {
   position: absolute;
   width: 50%;
   left: 25%;
-  top: 16%;
+  top: 15%;
 }
 
 #connection-card {
   position: absolute;
-  width: 95.75%;
-  top: 100%;
+  width: 40%;
+  left: 30%;
+  top: 70%;
+  height: 225px;
 }
 
 .card-panel {
@@ -56,7 +58,7 @@ a {
   position: absolute;
   width: 50%;
   height: 100px;
-  top: 10%;
+  top: 12.%;
   left: 45%;
   text-align: center;
   line-height: 40px;
@@ -95,10 +97,10 @@ a {
 #photo {
   position: absolute;
   top: 20%;
-  width: 25%;
+  width: 22.5%;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
   /* comes into effect for screens less than or equal to 320 pixels */
 
   body {
@@ -108,10 +110,10 @@ a {
   #welcome {
     font-size: 2rem;
     position: absolute;
-    width: 45%;
+    width: 50%;
     height: 100px;
-    top: 10%;
-    left: 50%;
+    top: 5%;
+    left: 40%;
     text-align: center;
     line-height: 35px;
     background-color: #fff;
@@ -160,9 +162,10 @@ a {
 
   #connection-card {
     position: absolute;
-    width: 80%;
-    left: 10%;
-    top: 75%;
+    width: 60%;
+    left: 20%;
+    top: 60%;
+    height: 225px;
   }
 
   .nav-wrapper {
