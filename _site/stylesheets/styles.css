@@ -5,7 +5,7 @@ h1 {
   font-size: 1.3rem;
 }
 h2 {
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 #greet {
@@ -14,15 +14,14 @@ h2 {
 
 #welcome-card {
   position: absolute;
-  width: 70%;
-  left: 15%;
-  top: 10%;
+  width: 50%;
+  left: 25%;
+  top: 16%;
 }
 
 #connection-card {
   position: absolute;
-  width: 50%;
-  left: 25%;
+  width: 95.75%;
   top: 100%;
 }
 
@@ -53,12 +52,14 @@ a {
 }
 
 #welcome {
-  font-size: 2rem;
-  position: relative;
-  width: 200px;
+  font-size: 1.8rem;
+  position: absolute;
+  width: 50%;
   height: 100px;
+  top: 10%;
+  left: 45%;
   text-align: center;
-  line-height: 100px;
+  line-height: 40px;
   background-color: #fff;
   border: 8px solid #666;
   -webkit-border-radius: 30px;
@@ -74,7 +75,7 @@ a {
   position: absolute;
   width: 0;
   height: 0;
-  left: 28px;
+  left: 25px;
   top: 85px;
   border: 25px solid;
   border-color: #666 transparent transparent #666;
@@ -85,13 +86,19 @@ a {
   position: absolute;
   width: 0;
   height: 0;
-  left: 38px;
+  left: 35px;
   top: 80px;
   border: 15px solid;
   border-color: #fff transparent transparent #fff;
 }
 
-@media screen and (max-width: 414px) {
+#photo {
+  position: absolute;
+  top: 20%;
+  width: 25%;
+}
+
+@media screen and (max-width: 550px) {
   /* comes into effect for screens less than or equal to 320 pixels */
 
   body {
@@ -99,8 +106,46 @@ a {
   }
 
   #welcome {
-    font-size: 1.4rem;
+    font-size: 2rem;
+    position: absolute;
+    width: 45%;
+    height: 100px;
+    top: 10%;
+    left: 50%;
+    text-align: center;
+    line-height: 35px;
+    background-color: #fff;
+    border: 8px solid #666;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    -webkit-box-shadow: 2px 2px 4px #888;
+    -moz-box-shadow: 2px 2px 4px #888;
+    box-shadow: 2px 2px 4px #888;
   }
+
+  #welcome:before {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 25px;
+    top: 85px;
+    border: 25px solid;
+    border-color: #666 transparent transparent #666;
+  }
+
+  #welcome:after {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 35px;
+    top: 80px;
+    border: 15px solid;
+    border-color: #fff transparent transparent #fff;
+  }
+
 
   #greet {
     font-size: 1rem;
@@ -117,7 +162,7 @@ a {
     position: absolute;
     width: 80%;
     left: 10%;
-    top: 115%;
+    top: 75%;
   }
 
   .nav-wrapper {
@@ -148,5 +193,10 @@ a {
 
  #intro {
    font-size: 1rem;
+ }
+
+ #photo {
+   position: absolute;
+   width: 50%;
  }
 }
