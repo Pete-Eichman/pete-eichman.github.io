@@ -102,6 +102,13 @@ a {
   width: 25%;
 }
 
+#about-pic {
+  position: absolute;
+  top: 35%;
+  width: 25%;
+  left: 37.5%;
+
+}
 
 
 @media screen and (max-width: 600px) {
