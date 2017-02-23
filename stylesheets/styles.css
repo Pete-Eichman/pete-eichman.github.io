@@ -23,9 +23,9 @@ h2 {
 
 #connection-card {
   position: absolute;
-  width: 40%;
-  left: 30%;
-  top: 90%;
+  width: 50%;
+  left: 25%;
+  top: 100%;
   height: 225px;
 }
 
@@ -58,10 +58,10 @@ a {
 #welcome {
   font-size: 1.4rem;
   position: absolute;
-  width: 50%;
+  width: 30%;
   height: 100px;
-  top: 12%;
-  left: 45%;
+  top: 10%;
+  left: 52.5%;
   text-align: center;
   line-height: 75px;
   background-color: #fff;
@@ -98,8 +98,9 @@ a {
 
 #photo {
   position: absolute;
-  top: 20%;
-  width: 25%;
+  top: 25%;
+  width: 40%;
+  left: 30%;
 }
 
 #about-pic {
@@ -111,7 +112,7 @@ a {
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 414px) {
   /* comes into effect for screens less than or equal to 320 pixels */
 
   body {
@@ -121,12 +122,12 @@ a {
   #welcome {
     font-size: 2rem;
     position: absolute;
-    width: 50%;
+    width: 45%;
     height: 100px;
     top: 5%;
-    left: 40%;
+    left: 52%;
     text-align: center;
-    line-height: 35px;
+    line-height: 80px;
     background-color: #fff;
     border: 8px solid #666;
     -webkit-border-radius: 30px;
@@ -212,5 +213,6 @@ a {
  #photo {
    position: absolute;
    width: 50%;
+   left: 25%;
  }
 }
