@@ -1,5 +1,5 @@
 body {
-  background-color: #595151;
+  background-image: url(/images/main-background.jpg);
   font-family: 'Raleway', sans-serif;
 }
 h1 {
@@ -14,6 +14,10 @@ h2 {
   font-size: 1rem;
 }
 
+.divider {
+  padding-top: 1px;
+  margin-bottom: 1px;
+}
 #connection-card {
   position: absolute;
   width: 50%;
@@ -44,6 +48,15 @@ h2 {
   color: white;
 }
 
+.name {
+  font-size: 1.6rem !important;
+}
+
+.title {
+  font-size: 1.1rem !important;
+}
+
+
 #list {
   position: absolute;
   top: 2.5%;
@@ -70,12 +83,12 @@ a {
 #welcome {
   font-size: 1.4rem;
   position: absolute;
-  width: 30%;
-  height: 100px;
-  top: 15%;
-  left: 52.5%;
+  width: 50%;
+  height: 60px;
+  top: 0%;
+  left: 35%;
   text-align: center;
-  line-height: 75px;
+  line-height: 50px;
   background-color: #fff;
   border: 5px solid #000000;
   -webkit-border-radius: 30px;
@@ -92,7 +105,7 @@ a {
   width: 0;
   height: 0;
   left: 15px;
-  top: 90px;
+  top: 50px;
   border: 15px solid;
   border-color: #000000 transparent transparent #000000;
 }
@@ -100,11 +113,11 @@ a {
 #welcome:after {
   content: ' ';
   position: absolute;
-  width: 0;
-  height: 0;
+  width: 0px;
+  height: 0px;
   left: 20px;
-  top: 75px;
-  border: 15px solid;
+  top: 45px;
+  border: 10px solid;
   border-color: #fff transparent transparent #fff;
 }
 
@@ -183,6 +196,7 @@ a {
 
   #nav {
     background-color: black;
+    height: 50px;
   }
 
   a {
@@ -205,5 +219,12 @@ a {
    position: absolute;
    width: 50%;
    left: 25%;
+ }
+ .button-collapse {
+   position: absolute;
+   top: 1.5%;
+   left: 5%;
+   font-size: 1.5rem;
+   color: white;
  }
 }
