@@ -27,15 +27,30 @@ h2 {
   border-radius: 5px;
 }
 
-.nav-wrapper {
+#nav {
   background-color: black;
+  height: 80px;
 }
 
-nav {
+.button-collapse {
   position: absolute;
-  height: 60px;
-  top: 0px;
-  width: 100%;
+  top: 4.7%;
+  left: 1%;
+  color: white;
+}
+
+
+#list {
+  position: absolute;
+  top: 2.5%;
+  left: 1%;
+}
+
+.dropdown-content {
+  position: absolute !important;
+  top: 60px !important;
+  left: 5px !important;
+  background-color: rgba(255, 255, 255, .7);
 }
 
 a {
@@ -123,9 +138,9 @@ a {
     line-height: 80px;
     background-color: #fff;
     border: 8px solid #666;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    border-radius: 30px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
     -webkit-box-shadow: 2px 2px 4px #888;
     -moz-box-shadow: 2px 2px 4px #888;
     box-shadow: 2px 2px 4px #888;
@@ -177,11 +192,8 @@ a {
     background-color: black;
   }
 
-  nav {
-    position: absolute;
-    height: 60px;
-    top: 0px;
-    width: 100%;
+  #nav {
+    background-color: black !important;
   }
 
   a {
