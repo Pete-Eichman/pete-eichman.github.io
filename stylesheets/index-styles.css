@@ -140,6 +140,15 @@ a {
     font-family: 'Raleway', sans-serif;
   }
 
+  h1 {
+    font-size: 2rem;
+    font-family: 'Cherry Cream Soda', cursive;
+    line-height: 30px;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+
   #welcome {
     font-size: 2rem;
     position: absolute;

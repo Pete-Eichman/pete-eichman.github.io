@@ -133,11 +133,20 @@ a {
 
   body {
     background-image: url(/images/background.jpg);
-    height: 800px;
+    height: 740px;
     width: 100%;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     font-family: 'Raleway', sans-serif;
+  }
+
+  h1 {
+    font-size: 2rem;
+    font-family: 'Cherry Cream Soda', cursive;
+    line-height: 30px;
+  }
+  h2 {
+    font-size: 1.2rem;
   }
 
   #welcome {
