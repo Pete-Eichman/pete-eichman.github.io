@@ -1,5 +1,10 @@
+/* STANDARD VIEW CSS */
 body {
-  background-image: url(/images/main-background.jpg);
+  background-image: url(/images/background.jpg);
+  height: 1000px;
+  width: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   font-family: 'Raleway', sans-serif;
 }
 h1 {
@@ -10,20 +15,14 @@ h2 {
   font-size: 1.5rem;
 }
 
-#greet {
+a {
   font-size: 1rem;
+  padding-bottom: 10px;
 }
 
 .divider {
   padding-top: 1px;
   margin-bottom: 1px;
-}
-#connection-card {
-  position: absolute;
-  width: 50%;
-  left: 25%;
-  top: 90%;
-  height: 225px;
 }
 
 .card-panel {
@@ -31,16 +30,11 @@ h2 {
   border-radius: 5px;
 }
 
-#nav {
-  background-color: black;
-  height: 80px;
-}
-
 .button-collapse {
-  position: absolute;
-  top: 1%;
+  position: fixed;
+  top: 0px;
   left: 1%;
-  font-size: 3rem;
+  font-size: 2.8rem;
   color: white;
 }
 
@@ -53,7 +47,7 @@ h2 {
 }
 
 .title {
-  font-size: 1.1rem !important;
+  font-size: 1.0rem !important;
 }
 
 
@@ -61,19 +55,6 @@ h2 {
   position: absolute;
   top: 2.5%;
   left: 1%;
-}
-
-.dropdown-content {
-  position: absolute !important;
-  top: 60px !important;
-  left: 5px !important;
-  background-color: rgba(255, 255, 255, .7);
-}
-
-a {
-  padding-right: 5px;
-  font-size: 1rem;
-  padding-bottom: 10px;
 }
 
 #intro {
@@ -122,10 +103,8 @@ a {
 }
 
 #photo {
-  position: absolute;
-  top: 25%;
-  width: 35%;
-  left: 32.5%;
+  width: 100px;
+  height: 100px;
 }
 
 #about-pic {
@@ -133,15 +112,23 @@ a {
   top: 35%;
   width: 25%;
   left: 37.5%;
-
 }
 
+#slide-out {
+  width: 350px !important;
+}
 
+/* MOBILE SCREEN CSS */
 @media screen and (max-width: 414px) {
   /* comes into effect for screens less than or equal to 320 pixels */
 
   body {
-    background-color: #595151;
+    background-image: url(/images/background.jpg);
+    height: 800px;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-family: 'Raleway', sans-serif;
   }
 
   #welcome {
@@ -185,22 +172,7 @@ a {
     border-color: #fff transparent transparent #fff;
   }
 
-
-  #greet {
-    font-size: 1rem;
-  }
-
-  .connection-wrapper {
-    background-color: black;
-  }
-
-  #nav {
-    background-color: black;
-    height: 50px;
-  }
-
   a {
-    padding-right: 5px;
     font-size: .7rem;
     padding-bottom: 5px;
   }
@@ -216,15 +188,17 @@ a {
  }
 
  #photo {
-   position: absolute;
-   width: 50%;
-   left: 25%;
+   height: 90px;
+   width: 90px;
  }
  .button-collapse {
-   position: absolute;
-   top: 1.5%;
-   left: 5%;
-   font-size: 1.5rem;
+   position: fixed;
+   top: 0px;
+   left: 1%;
+   font-size: 2.8rem;
    color: white;
+ }
+ #slide-out {
+   width: 225px !important;
  }
 }
