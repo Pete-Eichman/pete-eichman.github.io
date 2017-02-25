@@ -67,10 +67,6 @@ a {
   left: 1%;
 }
 
-#intro {
-  font-size: 2rem;
-}
-
 #welcome {
   font-size: 1.4rem;
   position: absolute;
@@ -193,11 +189,6 @@ a {
  .card-panel {
    border-radius: 5px;
    border: solid;
- }
-
-
- #intro {
-   font-size: 1rem;
  }
 
  #photo {
