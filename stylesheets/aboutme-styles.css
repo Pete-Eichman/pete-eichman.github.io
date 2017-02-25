@@ -67,6 +67,10 @@ a {
 }
 
 #intro {
+  position: absolute;
+  top: 20%;
+  left: 15%;
+  width: 70%;
   font-size: 2rem;
 }
 
@@ -114,13 +118,6 @@ a {
 #photo {
   width: 100px;
   height: 100px;
-}
-
-#about-pic {
-  position: absolute;
-  top: 35%;
-  width: 25%;
-  left: 37.5%;
 }
 
 #slide-out {
@@ -189,14 +186,9 @@ a {
     padding-bottom: 5px;
   }
 
- .card-panel {
-   border-radius: 5px;
-   border: solid;
- }
-
-
  #intro {
-   font-size: 1rem;
+   position: absolute;
+   font-size: 2rem;
  }
 
  #photo {
