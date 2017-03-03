@@ -1,4 +1,5 @@
-/* STANDARD VIEW CSS */
+/* STANDARD MONITOR CSS */
+
 body {
   background-image: url(/images/background.jpg);
   height: 1000px;
@@ -125,11 +126,10 @@ a {
 }
 
 
-
-
 /* MOBILE SCREEN CSS */
+
 @media screen and (max-width: 450px) {
-  /* comes into effect for screens less than or equal to 320 pixels */
+  /* comes into effect for screens less than or equal to 450 pixels */
 
   body {
     background-image: url(/images/background.jpg);
