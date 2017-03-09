@@ -1,5 +1,4 @@
 /* STANDARD MONITOR CSS */
-
 body {
   background-image: url(/images/background.jpg);
   height: 1000px;
@@ -61,64 +60,9 @@ a {
   font-size: 1.0rem !important;
 }
 
-
-#list {
-  position: absolute;
-  top: 2.5%;
-  left: 1%;
-}
-
-#welcome {
-  font-size: 1.4rem;
-  position: absolute;
-  width: 50%;
-  height: 60px;
-  top: 0%;
-  left: 35%;
-  text-align: center;
-  line-height: 50px;
-  background-color: #fff;
-  border: 5px solid #000000;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  border-radius: 30px;
-  -webkit-box-shadow: 2px 2px 4px #888;
-  -moz-box-shadow: 2px 2px 4px #888;
-  box-shadow: 2px 2px 4px #888;
-}
-
-#welcome:before {
-  content: ' ';
-  position: absolute;
-  width: 0;
-  height: 0;
-  left: 15px;
-  top: 50px;
-  border: 15px solid;
-  border-color: #000000 transparent transparent #000000;
-}
-
-#welcome:after {
-  content: ' ';
-  position: absolute;
-  width: 0px;
-  height: 0px;
-  left: 20px;
-  top: 45px;
-  border: 10px solid;
-  border-color: #fff transparent transparent #fff;
-}
-
 #photo {
   width: 100px;
   height: 100px;
-}
-
-#about-pic {
-  position: absolute;
-  top: 35%;
-  width: 25%;
-  left: 37.5%;
 }
 
 #slide-out {
@@ -127,10 +71,8 @@ a {
 
 
 /* MOBILE SCREEN CSS */
-
 @media screen and (max-width: 450px) {
-  /* comes into effect for screens less than or equal to 450 pixels */
-
+/* comes into effect for screens less than or equal to 450 pixels */
   body {
     background-image: url(/images/background.jpg);
     height: 740px;
@@ -149,47 +91,6 @@ a {
     font-size: 1.2rem;
   }
 
-  #welcome {
-    font-size: 2rem;
-    position: absolute;
-    width: 45%;
-    height: 100px;
-    top: 10%;
-    left: 52%;
-    text-align: center;
-    line-height: 80px;
-    background-color: #fff;
-    border: 4px solid #000000;
-    -webkit-border-radius: 25px;
-    -moz-border-radius: 25px;
-    border-radius: 25px;
-    -webkit-box-shadow: 2px 2px 4px #888;
-    -moz-box-shadow: 2px 2px 4px #888;
-    box-shadow: 2px 2px 4px #888;
-  }
-
-  #welcome:before {
-    content: ' ';
-    position: absolute;
-    width: 0;
-    height: 0;
-    left: 15px;
-    top: 92px;
-    border: 15px solid;
-    border-color: #000000 transparent transparent #000000;
-  }
-
-  #welcome:after {
-    content: ' ';
-    position: absolute;
-    width: 0;
-    height: 0;
-    left: 20px;
-    top: 80px;
-    border: 15px solid;
-    border-color: #fff transparent transparent #fff;
-  }
-
   a {
     font-size: .7rem;
     padding-bottom: 5px;
@@ -204,6 +105,7 @@ a {
    height: 90px;
    width: 90px;
  }
+
  .button-collapse {
    position: fixed;
    top: 25px;
@@ -211,7 +113,9 @@ a {
    font-size: 2.8rem;
    color: white;
  }
+
  #slide-out {
    width: 225px !important;
  }
+ 
 }
